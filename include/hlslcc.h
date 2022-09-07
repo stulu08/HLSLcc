@@ -17,7 +17,10 @@
     #define HLSLCC_APIENTRY
     #define HLSLCC_API
 #endif
-
+#ifdef _MSC_VER
+    #pragma warning (disable : 4267)
+    #pragma warning (disable : 4018)
+#endif
 #include <stdint.h>
 #include <string.h>
 
