@@ -18,7 +18,7 @@ project "HLSLcc"
 
 	
 	includedirs {
-		"%{wks.location}",
+		"%{prj.location}",
 		"include",
 		"src",
 		"src/cbstring",
